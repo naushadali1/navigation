@@ -4,7 +4,7 @@ import 'package:navigation/screen_3.dart';
 
 class MyHome extends StatelessWidget {
   static String id = 'my_home';
-  MyHome({super.key});
+  const MyHome({super.key});
 
   @override
   Widget build(BuildContext context) {

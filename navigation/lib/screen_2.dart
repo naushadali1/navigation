@@ -18,7 +18,7 @@ class ScreenTwo extends StatelessWidget {
                 },
                 child: const Text("Screen Three")),
           ),
-          Center(
+          const Center(
             child: Text('This is screen two '),
           ),
           Expanded(
@@ -37,6 +37,5 @@ class ScreenTwo extends StatelessWidget {
         ],
       ),
     );
-    ;
   }
 }
